@@ -1,34 +1,33 @@
-/*  your css code here. If applicable */
 body {
   font-family: Arial, sans-serif;
-  margin: 30px;
   background-color: #f9f9f9;
+  padding: 30px;
+  color: #333;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
   color: #222;
-}
-
-h1 {
-  font-size: 28px;
-  margin-bottom: 10px;
-}
-
-h2 {
-  font-size: 22px;
-  margin-top: 30px;
 }
 
 p {
   line-height: 1.6;
-}
-
-b {
-  font-weight: bold;
+  margin-bottom: 15px;
 }
 
 img {
-  margin-top: 15px;
+  display: block;
+  margin: 20px auto;
   width: 220px;
-  height: auto;
   border: 1px solid #ccc;
   padding: 4px;
-  background: #fff;
+  background-color: #fff;
 }
